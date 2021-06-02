@@ -16,8 +16,8 @@ import StyleSheet from './components/Stylesheet'
 import Inline from './components/Inline'
 import './components/appStyles.css'
 import styles from './components/appStyles.module.css'
-
-
+import Form from './components/Form'
+import LifeCycleA from './components/LifecycleA'
 
 
 
@@ -25,6 +25,10 @@ function App() {
   return (
     <div className="App">
       
+      {/* <LifeCycleA /> */}
+
+      {/* <Form /> */}
+
       {/* <h1 className='error'>Error</h1>
       <h1 className={styles.success}>Success</h1> */}
 
